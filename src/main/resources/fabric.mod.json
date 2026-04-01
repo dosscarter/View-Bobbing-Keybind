@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "viewbobbingkeybind",
+	"version": "${version}",
+	"name": "View Bobbing Keybind",
+	"description": "Adds a keybind for toggling view bobbing",
+	"authors": [
+		"RubixKubezz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/viewbobbingkeybind/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rubixkubezz.viewbobbingkeybind.ViewBobbingKeybind"
+		],
+		"fabric-datagen": [
+			"net.rubixkubezz.viewbobbingkeybind.ViewBobbingKeybindDataGenerator"
+		]
+	},
+	"mixins": [
+		"viewbobbingkeybind.mixins.json"
+	],
+	"client": [
+		"net.rubixkubezz.viewbobbingkeybind.ViewBobbingKeybindClient"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
