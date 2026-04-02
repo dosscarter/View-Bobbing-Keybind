@@ -8,8 +8,8 @@
 		"RubixKubezz"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/dosscarter/View-Bobbing-Keybind-1.21.8"
+		"homepage": "https://github.com/dosscarter/View-Bobbing-Keybind",
+		"sources": "https://github.com/dosscarter/View-Bobbing-Keybind"
 	},
 	"license": "MIT",
 	"icon": "assets/viewbobbingkeybind/icon.png",
@@ -29,7 +29,7 @@
 		"viewbobbingkeybind.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.6",
+		"fabricloader": ">=0.18.5",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
