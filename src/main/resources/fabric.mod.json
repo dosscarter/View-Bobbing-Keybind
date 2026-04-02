@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/dosscarter/View-Bobbing-Keybind-1.21.8"
 	},
 	"license": "MIT",
 	"icon": "assets/viewbobbingkeybind/icon.png",
@@ -20,13 +20,13 @@
 		],
 		"fabric-datagen": [
 			"net.rubixkubezz.viewbobbingkeybind.ViewBobbingKeybindDataGenerator"
+		],
+		"client": [
+			"net.rubixkubezz.viewbobbingkeybind.ViewBobbingKeybindClient"
 		]
 	},
 	"mixins": [
 		"viewbobbingkeybind.mixins.json"
-	],
-	"client": [
-		"net.rubixkubezz.viewbobbingkeybind.ViewBobbingKeybindClient"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.6",
