@@ -25,13 +25,6 @@
       "net.rubixkubezz.view_bobbing_keybind_1_21_11.View_bobbing_keybind_1_21_11"
     ]
   },
-  "mixins": [
-    "view_bobbing_keybind_1_21_11.mixins.json",
-    {
-      "config": "view_bobbing_keybind_1_21_11.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
