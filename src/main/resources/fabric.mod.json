@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "view_bobbing_keybind_1_21_11",
+  "version": "${version}",
+  "name": "View Bobbing Keybind",
+  "description": "Adds a keybind for toggling view bobbing",
+  "authors": [
+    "RubixKubezz"
+  ],
+  "contact": {
+    "homepage": "https://github.com/dosscarter/View-Bobbing-Keybind",
+    "sources": "https://github.com/dosscarter/View-Bobbing-Keybind"
+  },
+  "license": "MIT",
+  "icon": "assets/viewbobbingkeybind/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.rubixkubezz.view_bobbing_keybind_1_21_11.client.View_bobbing_keybind_1_21_11DataGenerator"
+    ],
+    "client": [
+      "net.rubixkubezz.view_bobbing_keybind_1_21_11.client.View_bobbing_keybind_1_21_11Client"
+    ],
+    "main": [
+      "net.rubixkubezz.view_bobbing_keybind_1_21_11.View_bobbing_keybind_1_21_11"
+    ]
+  },
+  "mixins": [
+    "view_bobbing_keybind_1_21_11.mixins.json",
+    {
+      "config": "view_bobbing_keybind_1_21_11.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
